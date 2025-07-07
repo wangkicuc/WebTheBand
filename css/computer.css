@@ -1,0 +1,27 @@
+/* HEADER */
+
+.header > h1{
+    width: 10%;
+    text-align: center;
+    font-family: "Iciel Cadena";
+}
+.script-avatar{
+    font-size: large;
+    text-align: left;
+    font-family: "Iciel Cadena";
+}
+.header{
+    justify-content: left;
+
+}
+/* AVATAR */
+
+#avatar-cir{
+    width: 10%;
+
+
+    /* BORDER */
+    border: 10px solid rgba(43, 230, 127, 0.363);
+    border-style: double ;
+    border-radius: 50%; 
+}
