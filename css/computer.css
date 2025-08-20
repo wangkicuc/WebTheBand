@@ -1,5 +1,10 @@
 /* HEADER */
+.body{
+    background-color: rgb(227, 250, 229);
+}
+
 .avatar{
+    padding-top: 10px;
     text-align: center;
     background-color: rgb(231, 244, 255);
 }
@@ -12,13 +17,17 @@
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+
+    font-size: large;
+    text-align: center;
+    font-family: "Iciel Cadena";
 }
 /* ANIMATION ĐÁNH CHỮ */
 .typewriter{
     display: flex;
     justify-content: center;
 }
-.typewriter p{
+.typewriter h1{
     font-family: "Iciel Cadena";
     font-size: 2.4rem;
     margin-inline: auto;
@@ -28,8 +37,7 @@
 
     border-right: 1px solid;
 
-    animation: typing 3s steps(22) forwards infinite, 
-    blink 1s step-end ;
+    animation: typing 3s steps(22) forwards infinite, blink 1s step-end ;
 }
 
 @keyframes typing{
@@ -48,11 +56,7 @@
     }
 }
 /*  */
-.script-avatar{
-    font-size: large;
-    text-align: center;
-    font-family: "Iciel Cadena";
-}
+
 .header{
     justify-content: left;
 
@@ -74,14 +78,246 @@
 /* BODY */
 .experience{
     text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h3{
+    color: rgb(255, 0, 0);
+    font-size: 40px;
+    font-family: 'Iciel Cadena';
 
 }
 
 /* THONG TIN CA NHAN */
 
 .information{
-    width: 30%;
+    width: 25%;
     margin-left: 200px;
     border: black 1px solid;
+    margin-top: 40px;
+
+    background-color: rgba(133, 202, 230, 0.329);
+    border-radius: 10% 50%;
+}
+
+.information >p{
+    font-size: 100px;
+    
 }
 /* SO THICH */
+
+.hobby{
+    width: 25%;
+    margin-left: 1200px;
+    border: black 1px solid;
+    border-radius: 50% 10%;
+    padding-bottom: 5px;
+    
+
+    background-color: rgb(210, 248, 235);
+
+}
+
+.hobby h4{
+    font-size:20px;
+    color: rgb(199, 122, 27);
+    text-decoration: underline;
+}
+
+/* NHỮNG THỨ ĐÃ LÀM ĐƯỢC */
+
+
+
+.Website h1{ 
+    font-family: "Iciel Cadena";
+    justify-content: center;
+    display: flex;
+    background: linear-gradient(to right, rgb(230, 108, 108), rgb(88, 204, 219), rgb(114, 231, 186), rgb(8, 126, 161));
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 25px;
+    font-size: 100px;
+
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+}
+.Web-The-Band{
+    width : 15%;
+    margin-left: 333px;
+    border: 1px solid black;
+    padding-left: 30px;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    /* SHADOW */
+    box-shadow: 5px 5px 15px rgba(0,     0, 0, 0.3);
+}
+
+.Web-Country{
+    width : 15%;
+    margin-left: 666px;
+    border: 1px solid black;
+    padding-left: 30px;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    /* SHADOW */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+.hinhanh{
+    display: flex;
+}
+
+#chat{
+    
+    justify-content: center;
+    display: flex;
+    font-style: italic;
+    letter-spacing: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 200px;
+        border: 1px solid black;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    color: rgb(255, 154, 23);
+    font-size: 50px;
+
+}
+
+.hinhanh img{
+    width: 50%;
+}
+
+/* MỤC TIÊU */
+
+.target h1{
+    font-family: "Iciel Cadena";
+    justify-content: center;
+    display: flex;
+    background: linear-gradient(to right, rgb(230, 108, 108), rgb(12, 227, 255), rgb(114, 116, 231), rgb(162, 235, 144));
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 15px;
+    font-size: 80px;
+
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+    border: 1px solid black;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+.target{
+    margin-top: 100px;
+
+}
+
+.Olympic{
+    display: flex;
+    text-align: center;
+}
+.Olympic h2{
+    border: 3px solid rgb(230, 122, 122);
+    padding: 30px;
+    margin-left: 300px;
+
+    border-style: dashed;
+
+    font-family: "Iciel Cadena";
+    background-color: black;
+    color: rgb(255, 251, 0);
+}
+
+.badges h1{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.badges h1{
+    font-family: "Iciel Cadena";
+    justify-content: center;
+    display: flex;
+    background: linear-gradient(to right, rgb(231, 124, 124), rgb(12, 227, 255), rgb(28, 191, 255), rgb(154, 247, 131));
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 15px;
+    font-size: 80px;
+
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+    border: 1px solid black;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+/* CHO NÓ CÙNG 1 HÀNG */
+.ielts{
+    display: flex;
+}
+.math{
+    display: flex;
+}
+.sat{
+    display: flex;
+}
+
+.badges h2{
+    border: 1px solid black;
+    font-size: 100px;
+    border-radius: 8%;
+    width: 15%;
+    margin-left: 50px;
+    padding-left: 30px;
+    /* Màu chữ */
+    background: linear-gradient(to left, rgb(226, 17, 17), rgb(8, 8, 158), rgb(227, 11, 255), rgba(211, 224, 27, 0.425));
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate-gradient 5s linear infinite;
+    font-family: "Iciel Cadena";
+    margin-bottom: 10px;
+}   
+/* Chữ ảo */
+@keyframes animate-gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+.badges p{
+    font-size: 75px;
+    margin-left: 400px;
+    border: 3px solid black;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+    color: rgb(173, 12, 206);
+    font-family: "Iciel Cadena";
+    
+    stroke: 1px;
+}
+
+.footer{
+    display: flex;
+    border: 1px solid black;
+    margin-top: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+
+}
+.footer p{
+    margin-left: 150px;
+    padding-left: 100px;
+    font-family: 'Courier New', Courier, monospace;
+}
